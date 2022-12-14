@@ -5,8 +5,8 @@ import tw from 'twrnc';
 export function HomeScreen(){
     return(
         <SafeAreaView>
-            <View>
-                <Text>My favourite places</Text>
+            <View style={tw`bg-yellow-700`}>
+                <Text style={tw`text-white`}>My favourite places</Text>
             </View>
             <Banner/>
         </SafeAreaView>
